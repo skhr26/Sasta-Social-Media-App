@@ -7,7 +7,7 @@ const Landing = () => {
   const navigate=useNavigate();
   return (
     <div style={{display:'flex',alignItems:"center",justifyContent:"center", flexDirection:"column",gap:"30px"}}>
-      <div style={{marginTop:"20%",fontFamily:"fantasy",font:"caption"}}>
+      <div style={{marginTop:"20%",fontFamily:"fantasy",font:"caption",textAlign:"center"}}>
       Hamara Sasta sa Social Media app Only For Learning Purpose
       "No harm pay no attention to it !"
       </div>
