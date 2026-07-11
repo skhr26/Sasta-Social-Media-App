@@ -1,0 +1,7 @@
+the project that we are going to make today is a basic post create app where a user can send a post by giving a photo or an image and a caption just like it happens on a social media platform
+
+
+image --cloud storage provider they return url 
+
+
+services folder mai ham wo rkh rhe hai jo hame kahi na kahi change karna pad skta hai like amazon s3 or cloudinary or imagekit 
