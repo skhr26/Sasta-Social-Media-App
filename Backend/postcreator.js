@@ -1,3 +1,4 @@
+require("dotenv").config()
 const express=require("express");
 const app=express();
 const multer=require("multer")
@@ -5,7 +6,6 @@ const uploadFile=require("./services/storage.service")
 const cors=require("cors");
 const postModel=require("./models/post.model")
 const upload=multer({storage:multer.memoryStorage()});
-require("dotenv").config()
 app.use(express.json());
 app.use(cors());
 
