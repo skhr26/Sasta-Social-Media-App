@@ -11,7 +11,7 @@ const AllPost = () => {
   
 
   useEffect(()=> {
-    axios.get("http://localhost:3000/getposts").then((res)=> {
+    axios.get("srv-d992qqmcjfls73fjl8g0/getposts").then((res)=> {
       setPosts(res.data.posts);
     })
       // ab yaad karo ham yehi kiya karte the postman pe whi hame karna hai ffontend pe 

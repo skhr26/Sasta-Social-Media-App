@@ -11,7 +11,7 @@ const CreatePost = () => {
     // }
     console.log(e.target);
     const formdata=new FormData(e.target);
-    axios.post("http://localhost:3000/createpost",formdata)
+    axios.post("srv-d992qqmcjfls73fjl8g0/createpost",formdata)
     .then((res)=> {
       console.log("Post Created!")
       navigate("/getpost")
