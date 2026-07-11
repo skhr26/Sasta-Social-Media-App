@@ -11,11 +11,13 @@ const CreatePost = () => {
     // }
     console.log(e.target);
     const formdata=new FormData(e.target);
-    axios.post("https://srv-d992qqmcjfls73fjl8g0/createpost",formdata)
+    axios.post("https://sasta-social-media-app.onrender.com/createpost",formdata)
     .then((res)=> {
       console.log("Post Created!")
-      navigate("/getpost")
       e.target.reset();
+
+
+      navigate("/getpost")
     }).catch((err)=>{
       alert("OOps! Error Creating posts!")
     }
