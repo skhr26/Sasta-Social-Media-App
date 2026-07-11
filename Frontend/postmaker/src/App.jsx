@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import './App.css'
 import { BrowserRouter, Routes, Route} from "react-router-dom"
-import Landing from './Components/Landing'
-import CreatePost from './Components/CreatePost'
-import AllPost from './Components/AllPost'
+import Landing from './Landing'
+import CreatePost from './CreatePost'
+import AllPost from './Allpost'
 function App() {
   const [count, setCount] = useState(0)
 
